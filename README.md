@@ -1,6 +1,7 @@
 # T-academy
-Talk ON Seminar on Data Visualization
+Talk ON Seminar on Data Analysis and Visualization
 
-https://tacademy.sktechx.com/front/tacademy/courseinfo/campus.action
+<Python을 활용한 데이터분석 기초>
 
-Working on the upcoming T Academy seminar on data visualization.
+Online Lecture URL:
+https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=132#sec3
