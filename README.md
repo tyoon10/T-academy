@@ -1,7 +1,7 @@
 # T-academy
-Talk ON Seminar on Data Analysis and Visualization
-
 <Python을 활용한 데이터분석 기초>
+
+T academy Talk ON Seminar on Data Analysis and Visualization
 
 Lecturer: Taewan Yoon
 
