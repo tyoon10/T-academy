@@ -1,29 +1,40 @@
-# T academy — Data Analysis with Python
+# Data Analysis and Visualization with Python
 
-**Python을 활용한 데이터분석 기초**
+A complete intro course covering the Python data stack — from pandas fundamentals to interactive Plotly charts.
 
-Seminar materials from the T academy Talk ON series on data analysis and visualization.
-
-**Lecturer:** Taewan Yoon
+Originally developed as seminar materials for the [T academy](https://tacademy.skplanet.com/) Talk ON series.
 
 ## Notebooks
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| 1 | `180329 [T academy] 1. Introduction to Jupyter Notebook.ipynb` | Jupyter Notebook basics |
-| 2 | `180329 [T academy] 2. pandas - Series, DataFrame.ipynb` | pandas data structures |
-| 3 | `180329 [T academy] 3. pandas - Operations.ipynb` | pandas data manipulation |
-| 4 | `180329 [T academy] 4. matplotlib.ipynb` | Plotting with matplotlib |
-| 5 | `180329 [T academy] 5. seaborn.ipynb` | Statistical visualization with seaborn |
-| + | `180405 Monty Hall Problem.ipynb` | Simulation of the Monty Hall problem |
+| 01 | `01-jupyter-intro.ipynb` | Getting started with Jupyter Notebook |
+| 02 | `02-pandas-fundamentals.ipynb` | pandas Series, DataFrame, indexing, groupby |
+| 03 | `03-pandas-operations.ipynb` | Merge, concat, pivot tables, file I/O |
+| 04 | `04-matplotlib.ipynb` | Line plots, subplots, styling, saving figures |
+| 05 | `05-seaborn.ipynb` | Statistical visualization — distributions, categoricals, heatmaps, regression |
+| 06 | `06-plotly.ipynb` | Interactive charts with Plotly Express and financial charts with yfinance |
+| 07 | `07-monty-hall.ipynb` | Applied: simulating the Monty Hall problem |
+| 08 | `08-capstone-housing.ipynb` | Applied: exploratory analysis of California housing prices |
 
-## Sample Data
+## Data
 
-- `Excel_Sample.xlsx` — sample spreadsheet for pandas exercises
-- `gapminder.csv` — Gapminder dataset for visualization exercises
+Sample datasets are in `data/`:
+- `gapminder.csv` — country-level life expectancy, GDP, and population (Gapminder)
+- `Excel_Sample.xlsx` — sample spreadsheet for pandas I/O exercises
+
+Notebooks 05-08 also use built-in datasets from seaborn and Plotly (tips, iris, gapminder, California housing).
 
 ## Requirements
 
 - Python 3.6+
 - Jupyter Notebook
-- pandas, numpy, matplotlib, seaborn
+- pandas, numpy, matplotlib, seaborn, plotly, yfinance
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly yfinance jupyter
+```
+
+## License
+
+This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
